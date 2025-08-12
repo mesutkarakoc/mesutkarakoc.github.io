@@ -30,7 +30,7 @@
         /* Custom style to adjust the position of the profile photo within its frame */
         .profile-image {
             object-position: 0% 0%;
-        }        
+        }
     </style>
 </head>
 <body class="bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-200">
@@ -50,7 +50,7 @@
             
             <!-- Profile Image (Rectangle with rounded corners) -->
             <img 
-                class="w-44 h-44 rounded-2xl object-cover border-4 border-blue-500 mb-6 sm:mb-0 sm:mr-8 shadow-md dark:border-blue-400" 
+                class="profile-image w-44 h-44 rounded-2xl object-cover border-4 border-blue-500 mb-6 sm:mb-0 sm:mr-8 shadow-md dark:border-blue-400" 
                 src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYzWU5z9OwQDK0VP0UFz7VInUVjtJyJ9LvtPm7DxzFYp-K_dnErC_OO0ZmZbngLq2oANPsQyP8xfx4v3rEs3VXi8ZTzPtxN7QaL9piirBJWCAuY5Bd8kTgEXbcWJ-SCWJMtFgzsfGAKGiNPSIXVSeJCReo9TVTU13zuRqxkJkt2CAasWAmTU3dZh5h9kE/s320/ChatGPT%20Image%20Apr%208,%202025,%2011_20_30%20AM.png" 
                 alt="Dr. Mesut Karakoç"
                 onerror="this.onerror=null;this.src='https://placehold.co/176x176/e5e7eb/4b5563?text=MK';"
@@ -58,31 +58,29 @@
             <!-- Name and Title -->
             <div>
                 <h1 class="text-4xl font-extrabold text-gray-900 leading-tight dark:text-gray-50">Dr. Mesut Karakoç</h1>
-                <p class="text-xl text-blue-600 font-medium mt-2 dark:text-blue-400">Physics Researcher</p>
-                <p class="text-gray-500 mt-1 dark:text-gray-400">Specializing in Nuclear, Particle, and Mathematical Physics</p>
+                <p class="text-xl text-blue-600 font-medium mt-2 dark:text-blue-400">Nuclear Physics and Computational Physics</p>
             </div>
         </header>
 
         <!-- About Me Section -->
-<section class="bg-white p-8 rounded-3xl shadow-xl mb-8 dark:bg-gray-800 dark:shadow-2xl">
-    <h2 class="text-2xl font-bold mb-4 text-blue-600 border-b-2 border-gray-200 pb-2 dark:text-blue-400 dark:border-gray-700">About Me</h2>
-    <div class="text-gray-600 mt-4 space-y-4 leading-relaxed dark:text-gray-300">
-        <p>
-            My primary academic focus is on <strong>nuclear physics</strong> and <strong>computational physics</strong>, with a specialization in theoretical methods, nuclear potentials, and reaction mechanisms. A key part of my research involves developing and applying <strong>folding potentials</strong> for systems like C12+Mg24 and 6He+12C.
-        </p>
-        <p>
-            I have also contributed to research on <strong>nuclear reactions</strong>, including medium effects and those involving rare isotopes, and on <strong>nuclear astrophysics</strong>, where I've studied cross sections relevant to nucleosynthesis. In addition, my interests extend to <strong>photonuclear reactions</strong>and analyzing the <strong>physical properties of nanocomposites</strong>and the <strong>optical properties of quantum dots</strong>.
-        </p>
-        <p>
-            For my computational work, I frequently use the <strong>Asymptotic Iteration Method (AIM)</strong>to solve quantum mechanical equations. To support this work, I developed <strong>AIMpy</strong>, a dedicated Python code for solving Schrödinger-like equations. I also created <strong>BiFold</strong>, a Python code for calculating folding potentials.
-        </p>
-    </div>
-</section>
+        <section class="bg-white p-8 rounded-3xl shadow-xl mb-8 dark:bg-gray-800 dark:shadow-2xl">
+            <h2 class="text-2xl font-bold mb-4 text-blue-600 border-b-2 border-gray-200 pb-2 dark:text-blue-400 dark:border-gray-700">About Me</h2>
+            <div class="text-gray-600 mt-4 space-y-4 leading-relaxed dark:text-gray-300">
+                <p>
+                    My primary academic focus lies in <strong>nuclear physics</strong> and <strong>computational physics</strong>. I specialize in theoretical methods, nuclear potentials, and reaction mechanisms. My research involves developing and applying <strong>nuclear potentials</strong>, and I have created <strong>folding potentials</strong> for systems like <sup>12</sup>C + <sup>24</sup>Mg and <sup>6</sup>He + <sup>12</sup>C. I also developed <strong>BiFold</strong>, a Python code for calculating these potentials.
+                </p>
+                <p>
+                    My interests also extend to <strong>nuclear reactions</strong>, including medium effects and those involving rare isotopes, and to **nuclear astrophysics**, where I have studied cross sections relevant to nucleosynthesis. In addition, I have contributed to research on <strong>photonuclear reactions</strong> and analyzing the <strong>physical properties of nanocomposites</strong> and the <strong>optical properties of quantum dots</strong>.
+                </p>
+                <p>
+                    For my computational work, I frequently use the <strong>Asymptotic Iteration Method (AIM)</strong> to solve quantum mechanical equations. To support this work, I developed <strong>AIMpy</strong>, a dedicated Python code for solving Schrödinger-like equations.
+                </p>
+            </div>
+        </section>
 
-        <!-- Links and Knowledge Section -->
+        <!-- Main Content Grid -->
         <main class="grid grid-cols-1 md:grid-cols-2 gap-8">
-
-            <!-- Research Profiles & Socials Column -->
+            <!-- Research Profiles Column -->
             <div class="flex flex-col gap-8">
                 <!-- Research Profiles Section -->
                 <section class="bg-white p-8 rounded-3xl shadow-xl dark:bg-gray-800 dark:shadow-2xl">
@@ -138,24 +136,9 @@
                         </a>
                     </div>
                 </section>
-                
-                <!-- Social Media Section -->
-                <section class="bg-white p-8 rounded-3xl shadow-xl dark:bg-gray-800 dark:shadow-2xl">
-                    <h2 class="text-2xl font-bold mb-4 text-blue-600 border-b-2 border-gray-200 pb-2 dark:text-blue-400 dark:border-gray-700">Social Media</h2>
-                    <div class="flex flex-col sm:flex-row gap-4">
-                        <a href="https://twitter.com/mesudkarakoc" target="_blank" class="bg-gray-50 p-4 rounded-lg flex-1 flex items-center justify-center gap-3 hover:bg-gray-200 transition-colors duration-300 card-hover dark:bg-gray-700 dark:hover:bg-gray-600">
-                            <svg class="w-6 h-6 text-blue-500 dark:text-blue-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-                            <span class="text-gray-700 dark:text-gray-200">@mesudkarakoc</span>
-                        </a>
-                        <a href="https://bsky.app/profile/mesudkarakoc.bsky.social" target="_blank" class="bg-gray-50 p-4 rounded-lg flex-1 flex items-center justify-center gap-3 hover:bg-gray-200 transition-colors duration-300 card-hover dark:bg-gray-700 dark:hover:bg-gray-600">
-                            <svg class="w-6 h-6 text-sky-500 dark:text-sky-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm3.707 9.707c-1.33.51-2.83.793-4.414.793-1.584 0-3.084-.283-4.414-.793a.5.5 0 0 1-.293-.707c.51-1.33.793-2.83.793-4.414 0-1.584-.283-3.084-.793-4.414a.5.5 0 0 1 .707-.707c1.33.51 2.83.793 4.414.793 1.584 0 3.084-.283 4.414-.793a.5.5 0 0 1 .707.707c-.51 1.33-.793 2.83-.793 4.414 0 1.584.283 3.084.793 4.414a.5.5 0 0 1-.293.707z"/></svg>
-                            <span class="text-gray-700 dark:text-gray-200">Bluesky</span>
-                        </a>
-                    </div>
-                </section>
             </div>
 
-            <!-- Lecture Notes & Knowledge Base Column -->
+            <!-- Lecture Notes & Web of Knowledge Column -->
             <div class="flex flex-col gap-8">
                 <!-- Lecture Notes Section -->
                 <section class="bg-white p-8 rounded-3xl shadow-xl dark:bg-gray-800 dark:shadow-2xl">
@@ -187,15 +170,33 @@ WC = (PHYSICS NUCLEAR OR
             </div>
         </main>
         
-        <!-- Global Reach Section with Clustrmaps -->
-        <section class="bg-white p-8 rounded-3xl shadow-xl mt-8 dark:bg-gray-800 dark:shadow-2xl">
-            <h2 class="text-2xl font-bold mb-4 text-blue-600 border-b-2 border-gray-200 pb-2 dark:text-blue-400 dark:border-gray-700">Global Reach</h2>
-            <div class="w-full h-auto">
-                <!-- Clustrmaps Script -->
-                <!-- Note: The 'd' value in the script is a placeholder and should be replaced with your own unique ID from Clustrmaps. -->
-                <script type="text/javascript" id="clstr_globe" src="//cdn.clustrmaps.com/globe.js?d=EjE9-S-6ye88LvtbXjI2NQjNN1dqBUKNoopZSPW25vQ"></script>
-            </div>
-        </section>
+        <!-- New Section for Social Media and Global Reach -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+            <!-- Social Media Section -->
+            <section class="bg-white p-8 rounded-3xl shadow-xl dark:bg-gray-800 dark:shadow-2xl">
+                <h2 class="text-2xl font-bold mb-4 text-blue-600 border-b-2 border-gray-200 pb-2 dark:text-blue-400 dark:border-gray-700">Social Media</h2>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="https://twitter.com/mesudkarakoc" target="_blank" class="bg-gray-50 p-4 rounded-lg flex-1 flex items-center justify-center gap-3 hover:bg-gray-200 transition-colors duration-300 card-hover dark:bg-gray-700 dark:hover:bg-gray-600">
+                        <svg class="w-6 h-6 text-blue-500 dark:text-blue-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                        <span class="text-gray-700 dark:text-gray-200">@mesudkarakoc</span>
+                    </a>
+                    <a href="https://bsky.app/profile/mesudkarakoc.bsky.social" target="_blank" class="bg-gray-50 p-4 rounded-lg flex-1 flex items-center justify-center gap-3 hover:bg-gray-200 transition-colors duration-300 card-hover dark:bg-gray-700 dark:hover:bg-gray-600">
+                        <svg class="w-6 h-6 text-sky-500 dark:text-sky-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm3.707 9.707c-1.33.51-2.83.793-4.414.793-1.584 0-3.084-.283-4.414-.793a.5.5 0 0 1-.293-.707c.51-1.33.793-2.83.793-4.414 0-1.584-.283-3.084-.793-4.414a.5.5 0 0 1 .707-.707c1.33.51 2.83.793 4.414.793 1.584 0 3.084-.283 4.414-.793a.5.5 0 0 1 .707.707c-.51 1.33-.793 2.83-.793 4.414 0 1.584.283 3.084.793 4.414a.5.5 0 0 1-.293.707z"/></svg>
+                        <span class="text-gray-700 dark:text-gray-200">Bluesky</span>
+                    </a>
+                </div>
+            </section>
+            
+            <!-- Global Reach Section with Clustrmaps -->
+            <section class="bg-white p-8 rounded-3xl shadow-xl dark:bg-gray-800 dark:shadow-2xl">
+                <h2 class="text-2xl font-bold mb-4 text-blue-600 border-b-2 border-gray-200 pb-2 dark:text-blue-400 dark:border-gray-700">Global Reach</h2>
+                <div class="w-full h-auto">
+                    <!-- Clustrmaps Script -->
+                    <!-- Note: The 'd' value in the script is a placeholder and should be replaced with your own unique ID from Clustrmaps. -->
+                    <script type="text/javascript" id="clstr_globe" src="//cdn.clustrmaps.com/globe.js?d=EjE9-S-6ye88LvtbXjI2NQjNN1dqBUKNoopZSPW25vQ"></script>
+                </div>
+            </section>
+        </div>
 
         <!-- Footer -->
         <footer class="text-center mt-12 text-gray-400 dark:text-gray-600">
